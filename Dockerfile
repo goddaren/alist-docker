@@ -51,7 +51,7 @@ RUN echo ">>>>>> update dependencies" \
     && echo ">>>>>> fix cloudreve-main premission" \
     && chmod +x /alist/alist-main
 
-EXPOSE 5244
+EXPOSE $PORT
 
 ENTRYPOINT ["./alist-main"]
 
